@@ -1,0 +1,59 @@
+{
+	"name": "vreak",
+	"description": "An opinionated React starter for my next project",
+	"homepage": "https://github.com/bnhr/vreaks",
+	"private": true,
+	"license": "MIT",
+	"version": "1.0.1",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"lint": "bunx biome check --write src",
+		"format": "bunx biome format --write src",
+		"test": "vitest",
+		"preview": "vite preview",
+		"prepare": "husky",
+		"knip": "knip"
+	},
+	"dependencies": {
+		"@tailwindcss/vite": "^4.0.14",
+		"@tanstack/react-query": "^5.69.0",
+		"@tanstack/react-query-devtools": "^5.69.0",
+		"clsx": "^2.1.1",
+		"js-cookie": "^3.0.5",
+		"ky": "^1.7.5",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0",
+		"react-router": "7.5.0",
+		"tailwind-merge": "^3.0.2",
+		"zustand": "^5.0.3"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@testing-library/dom": "^10.4.0",
+		"@testing-library/jest-dom": "^6.6.3",
+		"@testing-library/react": "^16.2.0",
+		"@testing-library/user-event": "^14.6.1",
+		"@types/js-cookie": "^3.0.6",
+		"@types/node": "^22.13.10",
+		"@types/react": "^19.0.11",
+		"@types/react-dom": "^19.0.4",
+		"@vitejs/plugin-react": "^4.3.4",
+		"globals": "^16.0.0",
+		"husky": "^9.1.7",
+		"jsdom": "^26.0.0",
+		"knip": "^5.46.0",
+		"lint-staged": "^15.5.0",
+		"postcss": "^8.5.3",
+		"prettier": "^3.5.3",
+		"tailwindcss": "^4.0.14",
+		"typescript": "^5.8.2",
+		"typescript-eslint": "^8.26.1",
+		"vite": "^6.2.2",
+		"vitest": "^3.0.9"
+	},
+	"engines": {
+		"node": ">=20.0.0"
+	}
+}

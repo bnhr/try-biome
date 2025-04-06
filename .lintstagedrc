@@ -1,0 +1,4 @@
+{
+	"src/**/*.{ts,tsx}": ["bunx biome check --write"],
+	"src/**/*.{ts,tsx,json,css,scss,md,mdx,js}": ["bunx biome format --write"]
+}
